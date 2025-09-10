@@ -4,6 +4,7 @@ $clientId = "" # App Overview Page "Application (client) ID"
 $clientSecret = ""
 $inputTxtPath = "C:\temp\device_list.txt"
 $outputCsvPath = "C:\temp\IntuneDevicePrimaryUsers.csv"
+# Permission Required: DeviceManagementManagedDevices.Read.All
 
 try {
     # Authenticate
@@ -32,4 +33,5 @@ try {
     Write-Host "Complete: $found/$($deviceNames.Count) found -> $outputCsvPath" -ForegroundColor Green
 }
 catch { Write-Host "Error: $($_.Exception.Message)" -ForegroundColor Red }
+
 finally { Disconnect-MgGraph -ErrorAction SilentlyContinue }
