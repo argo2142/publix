@@ -38,6 +38,13 @@ https://blog.jeffsmits.net/pretty-terminal/
 
 had to manually install (from the software manager):
 powerline fonts
-Installed 2 items
+Installed 2 items:
+apt install zsh-theme-powerlevel9k
+apt install fonts-powerline
 
 I skipped step 5 and 6
+
+
+Sodenote:
+I installed "embellish" (search for 'font' in software manager)
+I liked LILEX for a font... only works for system fonts...not terminal... but it looks good
