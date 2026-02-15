@@ -44,6 +44,7 @@ apt install fonts-powerline
 
 I skipped step 5 and 6
 
+Once dont - i went to the preferences of the terminal > went to the profile section and selected "x-term" as a color scheme
 
 Sodenote:
 I installed "embellish" (search for 'font' in software manager)
