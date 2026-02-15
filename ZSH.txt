@@ -27,3 +27,11 @@ Install ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 nano ~/.zshrc
+
+
+These worked:
+https://blog.jeffsmits.net/pretty-terminal/
+
+had to manually install (from the software manager):
+powerline fonts
+Installed 2 items
