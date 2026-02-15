@@ -1,3 +1,7 @@
+
+# pi**p my shell reference:
+https://github.com/novaspirit/pimpyourterm?tab=readme-ov-file
+
 # Installing ZSH:
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms
 
