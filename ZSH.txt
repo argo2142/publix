@@ -35,3 +35,5 @@ https://blog.jeffsmits.net/pretty-terminal/
 had to manually install (from the software manager):
 powerline fonts
 Installed 2 items
+
+I skipped step 5 and 6
