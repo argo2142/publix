@@ -1,0 +1,8 @@
+Install GIT:
+https://git-scm.com/install/windows
+OR
+winget.exe install --id "Git.Git" --exact  --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --force
+winget.exe install --id "GitHub.GitHubDesktop" --exact --source winget --accept-source-agreements --disable-interactivity --silent --accept-package-agreements --force
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
