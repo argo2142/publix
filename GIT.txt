@@ -8,7 +8,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
 # Restart VS Code after installing this
-# To authenticate CV Code to Github account
+# To authenticate VS Code to Github account
 At the VS Code Terminal type "GH auth login"
 Select "Github.com" (it is the default)
 Select "HTTPS (it is the default)
@@ -17,4 +17,9 @@ Select "HTTPS (it is the default)
 Copy the ONE TIME code and hit enter to launch browser
 Paste ONE TIME code and say Yes
 
+To manually push a change from the VS Code command line
+
+Git Add . (this takes everything ... or you could also be specific... Git Add .\readme.md)
+Git Commit -m "NintyNinth Commit"
+Git push
 
