@@ -8,30 +8,34 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
 # Restart VS Code after installing this
-# To authenticate VS Code to Github account
-At the VS Code Terminal type "GH auth login"
-Select "Github.com" (it is the default)
-Select "HTTPS (it is the default)
-"Do you want to authenticate"... select "Y"
-"Login with a web browser"... hit enter
-Copy the ONE TIME code and hit enter to launch browser
-Paste ONE TIME code and say Yes
+# To authenticate VS Code to Github account:
 
-To manually push a change from the VS Code command line
+# At the VS Code Terminal type "GH auth login"
+# Select "Github.com" (it is the default)
+# Select "HTTPS (it is the default)
+# "Do you want to authenticate"... select "Y"
+# "Login with a web browser"... hit enter
+# Copy the ONE TIME code and hit enter to launch browser
+# Paste ONE TIME code and say Yes
+
+# To manually push a change from the VS Code command line
 
 Git Add . (this takes everything ... or you could also be specific... Git Add .\readme.md)
 Git Commit -m "NintyNinth Commit"
 Git push
 
-Go to the file on Github,ccom
+# Go to the file on Github,ccom
 # click the "History" button on the right side - this will display all of the commits and their hash IDs
 
 # bring up version desired
 # Format: Git Checkout <commit-hash> [--] <pathspec>…
 git checkout 757c47d4 -- Publix/git.txt
+# NOTE: Ive included "Publix" in this path... but if the path in the command windows of VS Code already includes Publix... just use the file name.
+git checkout 757c47d4 -- git.txt
+
 # This should bring up the commit requested
 
-#to now make this the latest commit (again)
+# to now make this the latest commit (again)
 
 Git Add . (this takes everything ... or you could also be specific... Git Add .\readme.md)
 Git Commit -am "100TH Commit" # NOTICE THE "-am"... THIS IS DIFFERENT FROM BEFORE. THAT USED "-a"
