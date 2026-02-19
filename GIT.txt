@@ -36,3 +36,5 @@ git checkout 757c47d4 -- Publix/git.txt
 Git Add . (this takes everything ... or you could also be specific... Git Add .\readme.md)
 Git Commit -am "100TH Commit" # NOTICE THE "-am"... THIS IS DIFFERENT FROM BEFORE. THAT USED "-a"
 Git push
+
+reverse this!!!!!!!
